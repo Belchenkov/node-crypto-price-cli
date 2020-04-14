@@ -1,0 +1,11 @@
+{
+  "name": "coindex-cli",
+  "version": "1.0.0",
+  "description": "Build a CLI (command line interface) for a cryptocurrency price app. \r > Use Commander.js, Inquirer, configstore and some other modules.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aleksey Belchenkov",
+  "license": "ISC"
+}
