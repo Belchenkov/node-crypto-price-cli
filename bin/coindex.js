@@ -1,3 +1,10 @@
 #!/usr/bin/env node
+const program = require('commander');
+const pkg = require('../package.json');
 
-console.log('123')
+program
+    .version(pkg.version)
+    .command('key', 'Manage API Key -- https://nomics.com')
+    .parse(process.argv);
+
+console.log('Hello from coindex')
