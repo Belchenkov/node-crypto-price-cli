@@ -1,0 +1,2 @@
+API docs can be found here: https://api.nomics.com/
+API key: 5ed7a0b1605573dde468c3f68d8d1010
