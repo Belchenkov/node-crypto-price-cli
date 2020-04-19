@@ -3,8 +3,7 @@
 > Build a CLI (command line interface) for a cryptocurrency price app. 
 > Use Commander.js, Inquirer, configstore and some other modules.
 > Register an API key at https://nomics.com
->
->
+
 ## Usage
 
 ```
@@ -17,21 +16,24 @@ npm link
 
 ```
 # Help & Commands
-coindex -h
+coindex-cli -h
 
 # Version
-coindex -V
+coindex-cli -V
 
 # API Key Commands
-coindex key set
-coindex key show
-coindex key remove
+coindex-cli key set
+coindex-cli key show
+coindex-cli key remove
 
 # Crypto Check Commands
-coindex check price
+coindex-cli check price
 
 # Check Specific Coins (default: BTN,ETH,XRP)
-coindex check --coin=BTC,ETH
+coindex-cli check --coin=BTC,ETH
 
 # Choose Currency (Default: USD)
-coindex check --cur=EUR
+coindex-cli check --cur=EUR
+
+# Example:
+coindex-cli check price --coin=BTC,ETH,XRP,LTC,EOS,XMR,ADA,DASH,ZEC,BCH,XLM,NEO,XEM,BAT,QTUM,ZRX,OMG  --cur=USD
